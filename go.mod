@@ -1,6 +1,7 @@
 module github.com/v2fly/v2ray-core/v5
 
 go 1.17
+toolchain go1.24.1
 
 require (
 	github.com/adrg/xdg v0.4.0
@@ -28,7 +29,7 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20211205182925-97ca703d548d
 	google.golang.org/grpc v1.44.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.6
 	gopkg.in/yaml.v2 v2.4.0
 	h12.io/socks v1.0.3
 	inet.af/netaddr v0.0.0-20211027220019-c74959edd3b6
